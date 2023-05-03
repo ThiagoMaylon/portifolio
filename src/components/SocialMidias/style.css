@@ -1,0 +1,15 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: #FFF;
+    font-size: 1.3rem;
+    transition: .5s;
+}
+a:hover{
+    color: #66e7a9;
+}

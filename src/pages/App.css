@@ -1,0 +1,25 @@
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.name{
+    font-size: 1.4rem;
+    padding: .3em 0 .1em 0;
+    font-weight: bold;
+}
+.office{
+    color: #66e7a9;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.office span{
+    color: #FFF;
+    font-weight: normal;
+}

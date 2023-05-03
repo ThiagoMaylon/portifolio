@@ -1,0 +1,49 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0 ;
+}
+
+.contact .download-Cv{
+    color: #2b2c30;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    padding: .9rem 1.2rem;
+    font-weight: bold;
+}
+
+.contact .download-Cv:hover{
+    border: 2px solid #66e7a9;
+    background-color: transparent;
+    color: #66e7a9;
+}
+
+.linkContact{
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    margin-left: 10px;
+    padding: .9rem 1.3rem;
+    border-radius: 5px;
+}
+.linkContact svg{
+    color: #2b2c30;
+}
+.linkContact:hover{
+    border: 2px solid #66e7a9;
+    background: transparent;
+    color: #66e7a9;
+}
+.linkContact:hover svg{
+    color: #66e7a9;
+}
+
+@media (max-width: 339px) {
+    .contact .download-Cv{
+        font-size: 1rem;
+    }
+    .linkContact:not(.download-Cv){
+        padding: .7rem 1.2rem;
+    }
+}

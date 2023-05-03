@@ -1,0 +1,33 @@
+.CardSkill{
+    display: flex;
+    align-items: start;
+    font-size: 1.3rem;
+    font-family: Poppins, sans-serif;
+    transition: .3s;
+}
+.CardSkill:hover{
+    color: #66e7a9;
+    cursor: default;
+}
+.CardSkill svg{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+}
+.skill-content span{
+    color: #c2bebe;
+    width: 80px;
+    font-size: 13px;
+    margin: 0;
+}
+.skill-content p{
+    margin: 0;
+    font-size: 16px;
+}
+
+

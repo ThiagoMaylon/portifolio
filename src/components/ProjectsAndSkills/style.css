@@ -1,0 +1,33 @@
+.projects-skills{
+    width: 330px;
+    height: 50px;
+    display: flex;
+    padding: .1rem;
+}
+.projects-skills button{
+    background-color: #FFF;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    color: #2b2c30;
+    font-size: 1.3rem;
+    border: 2px solid #FFF;
+    transition: .3s;
+}
+.projeto{
+    border-radius: 5px 0 0 5px;
+}
+.habilidades{
+    border-radius: 0 5px 5px 0;
+}
+.projects-skills button:hover{
+    border: 2px solid #66e7a9;
+    background-color: transparent;
+    color: #66e7a9;
+}
+
+@media (max-width: 339px){
+    .projects-skills{
+        width: 290px;
+    }
+}

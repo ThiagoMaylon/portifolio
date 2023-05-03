@@ -1,0 +1,19 @@
+.line-photo{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #66e7a9;
+    border-radius: 50%;
+}
+
+.content-photo{
+    width: 130px;
+    height: 130px;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
