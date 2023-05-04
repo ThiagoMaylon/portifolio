@@ -10,8 +10,8 @@
     cursor: default;
 }
 .CardSkill svg{
-    font-size: 20px;
-    margin-right: 5px;
+    font-size: 18px;
+    margin-right: 8px;
 }
 .skill-content{
     display: flex;

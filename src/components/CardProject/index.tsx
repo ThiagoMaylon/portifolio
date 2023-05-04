@@ -1,3 +1,4 @@
+import { BsLink } from 'react-icons/bs'
 import './style.css'
 
 interface props {
@@ -14,7 +15,7 @@ export const CardProject = ({img, titulo, link}: props) => {
             
             <div className="cardProject-content">
                 <p>{titulo}</p>
-                <p><a href={link}>Ver mais</a></p>
+                <p><a href={link}><BsLink /></a></p>
             </div>
         </div>
     )
