@@ -1,0 +1,31 @@
+.bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    padding-top: 40px;
+    text-align: center;
+}
+.container h2{
+    margin: 10px 0;
+    font-size: 3rem;
+}
+
+.contato{
+    margin: 20px 0;
+    padding: 10px;
+    width: 250px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    opacity: 1;
+}
+.contato.linkedin{
+    background-color: #2778F1;
+}
+.contato.github{
+    background-color: #1E1E1E;
+}
+.contato.instagram{
+    background-color: #E1306C;
+}
